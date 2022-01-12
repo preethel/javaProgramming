@@ -1,8 +1,5 @@
 package JCode;
 
-import javax.swing.plaf.synth.SynthSplitPaneUI;
-import java.util.Random;
-
 public class MathClass {
 
     public static void main(String[] args) {
