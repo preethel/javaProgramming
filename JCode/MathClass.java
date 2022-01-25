@@ -1,5 +1,7 @@
 package JCode;
 
+import java.util.Scanner;
+
 public class MathClass {
 
     public static void main(String[] args) {
@@ -16,6 +18,26 @@ public class MathClass {
         System.out.println("Pi: "+Math.PI);
 
 
+        //hypotenuse 
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("-----Hypotenuse------");
+        System.out.println("Enter side X:");
+
+        double a = scan.nextDouble();
+
+        System.out.println("Enter side Y:");
+        double b = scan.nextDouble();
+
+        double c = Math.sqrt((a*a)+(b*b));
+
+        System.out.println("The hypotenuse is : "+c);
+        
+        scan.close();
+
+
+        
     }
     
 }
