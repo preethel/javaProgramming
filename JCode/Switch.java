@@ -44,7 +44,7 @@ public class Switch {
        
        
 
-
+    scan.close();
 
         
     }
