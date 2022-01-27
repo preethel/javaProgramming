@@ -22,7 +22,6 @@ public class LoopDo {
             System.out.println("-----");
             temp = x+y;
             result = scan.nextInt();
-            scan.next();
             
         }while(result!=temp);
 
